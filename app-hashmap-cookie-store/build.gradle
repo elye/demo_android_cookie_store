@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion rootProject.ext.androidVersion.toInteger()
     defaultConfig {
-        applicationId "com.elyeproj.appwebcookiemanager"
+        applicationId "com.elyeproj.apphashmapcookiestore"
         minSdkVersion 23
         targetSdkVersion rootProject.ext.androidVersion.toInteger()
         versionCode 1

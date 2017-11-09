@@ -1,1 +1,1 @@
-include ':app-web-cookie-manager', ':base-module'
+include ':app-web-cookie-manager', ':base-module', ':app-hashmap-cookie-store'

@@ -20,7 +20,6 @@ class WebviewActivity : AppCompatActivity() {
         } else {
             webview_main.loadUrl(URL)
         }
-
     }
 
     override fun onSaveInstanceState(outState: Bundle?) {
