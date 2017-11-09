@@ -1,6 +1,6 @@
 package com.elyeproj.demoappwebviewcookie
 
-interface MainView {
+interface BaseView {
     fun showCookie(cookie: String)
     fun showNothing()
     fun setErrorMessage(localizedMessage: String)
