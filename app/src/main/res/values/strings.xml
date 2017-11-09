@@ -1,9 +1,3 @@
 <resources>
     <string name="app_name">Demo App Webview Cookie</string>
-    <string name="txt_cookie_caption">COOKIE IS</string>
-    <string name="txt_cookie_nothing">Not There</string>
-    <string name="txt_cookie_error">ERROR!</string>
-    <string name="btn_read_cookie">Read Cookie</string>
-    <string name="btn_clear_cookie">Clear Cookie</string>
-    <string name="btn_open_webview">Open Webview</string>
 </resources>

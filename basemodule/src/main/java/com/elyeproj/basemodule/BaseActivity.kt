@@ -1,4 +1,4 @@
-package com.elyeproj.demoappwebviewcookie
+package com.elyeproj.basemodule
 
 import android.content.Intent
 import android.os.Bundle

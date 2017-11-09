@@ -1,4 +1,4 @@
-package com.elyeproj.demoappwebviewcookie
+package com.elyeproj.basemodule
 
 import io.reactivex.Completable
 import io.reactivex.android.schedulers.AndroidSchedulers
@@ -36,7 +36,7 @@ abstract class BasePresenter(val view: BaseView) {
         readFromCookieStore()
     }
 
-    abstract protected fun readFromCookieStore(url: String, cookieNmae: String)
+    abstract protected fun readFromCookieStore(url: String, cookieName: String)
 
     protected fun readFromCookieStore() {
         readFromCookieStore(URL, COOKIE_NAME)

@@ -1,5 +1,7 @@
 package com.elyeproj.demoappwebviewcookie
 
+import com.elyeproj.basemodule.BasePresenter
+import com.elyeproj.basemodule.BaseView
 import okhttp3.OkHttpClient
 
 class MainPresenter(view: BaseView) : BasePresenter(view) {

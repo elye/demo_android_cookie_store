@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context="com.elyeproj.demoappwebviewcookie.MainActivity">
+    tools:context="com.elyeproj.basemodule.BaseActivity">
 
     <TextView
         android:id="@+id/txt_cookie_caption"

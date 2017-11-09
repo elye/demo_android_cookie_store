@@ -1,4 +1,4 @@
-package com.elyeproj.demoappwebviewcookie
+package com.elyeproj.basemodule
 
 interface BaseView {
     fun showCookie(cookie: String)
