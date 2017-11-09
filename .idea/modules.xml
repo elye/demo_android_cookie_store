@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DemoAppWebviewCookie.iml" filepath="$PROJECT_DIR$/DemoAppWebviewCookie.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/basemodule/basemodule.iml" filepath="$PROJECT_DIR$/basemodule/basemodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-web-cookie-manager/app.iml" filepath="$PROJECT_DIR$/app-web-cookie-manager/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-module/basemodule.iml" filepath="$PROJECT_DIR$/base-module/basemodule.iml" />
     </modules>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package com.elyeproj.demoappwebviewcookie
+package com.elyeproj.appwebcookiemanager
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

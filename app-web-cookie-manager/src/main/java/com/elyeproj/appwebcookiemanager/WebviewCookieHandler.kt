@@ -1,4 +1,4 @@
-package com.elyeproj.demoappwebviewcookie
+package com.elyeproj.appwebcookiemanager
 
 import android.webkit.CookieManager
 import okhttp3.Cookie
