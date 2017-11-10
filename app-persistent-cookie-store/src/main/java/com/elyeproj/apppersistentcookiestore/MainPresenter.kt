@@ -12,7 +12,7 @@ import okhttp3.OkHttpClient
 
 class MainPresenter(view: BaseView, context: Context) : BasePresenter(view) {
 
-    private val cookieJar = PersistentCookieJar(SetCookieCache(), SharedPrefsCookiePersistor(context))
+    private val cookieJar = MyPersistentCookieJar(context)
     private val _okHttpClient = OkHttpClient().newBuilder().cookieJar(cookieJar).build()
 
     override val okHttpClient: OkHttpClient
@@ -29,16 +29,7 @@ class MainPresenter(view: BaseView, context: Context) : BasePresenter(view) {
     }
 
     override fun readFromCookieStore(urlString: String, cookieName: String) {
-        var cookieValue: String? = null
-        val cookies = cookieJar.loadForRequest(HttpUrl.parse(urlString))
-
-        cookies.toString().splitIntoArray(";")
-                .filter { it.contains(cookieName) }
-                .map { it.splitIntoArray("=") }
-                .forEach { cookieValue = it[1] }
-        super.showCookie(cookieValue)
+        val cookie = cookieJar.getCookie(urlString, cookieName)
+        super.showCookie(cookie)
     }
-
-    private fun String.splitIntoArray(delimiter: String) =
-            this.split(delimiter).dropLastWhile { it.isEmpty() }.toTypedArray()
 }
