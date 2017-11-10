@@ -8,7 +8,7 @@ import okhttp3.Request
 
 abstract class BasePresenter(val view: BaseView) {
     companion object {
-        private const val URL = "http://192.168.1.11/experiments/cookies/set_simple.php"
+        private const val URL = "http://elyeproject.x10host.com/experiment/cookies/set_simple.php"
         private const val COOKIE_NAME = "android_webview_communicate_cookie"
     }
 
