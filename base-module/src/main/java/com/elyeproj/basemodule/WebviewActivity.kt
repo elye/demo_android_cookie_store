@@ -8,7 +8,7 @@ import kotlinx.android.synthetic.main.activity_webview.*
 class WebviewActivity : AppCompatActivity() {
 
     companion object {
-        private const val URL = "http://10.150.39.35/experiments/cookies/reset_simple.php"
+        private const val URL = "http://192.168.1.11/experiments/cookies/reset_simple.php"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

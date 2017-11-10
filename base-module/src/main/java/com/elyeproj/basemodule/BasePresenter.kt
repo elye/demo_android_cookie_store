@@ -8,7 +8,7 @@ import okhttp3.Request
 
 abstract class BasePresenter(val view: BaseView) {
     companion object {
-        private const val URL = "http://10.150.39.35/experiments/cookies/set_simple.php"
+        private const val URL = "http://192.168.1.11/experiments/cookies/set_simple.php"
         private const val COOKIE_NAME = "android_webview_communicate_cookie"
     }
 
@@ -36,6 +36,10 @@ abstract class BasePresenter(val view: BaseView) {
         readFromCookieStore()
     }
 
+    open fun onOpenWebview() {
+        // By default do nothing
+    }
+
     abstract protected fun readFromCookieStore(url: String, cookieName: String)
 
     protected fun readFromCookieStore() {
@@ -49,5 +53,6 @@ abstract class BasePresenter(val view: BaseView) {
             view.showNothing()
         }
     }
+
 
 }

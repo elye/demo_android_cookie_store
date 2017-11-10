@@ -1,1 +1,1 @@
-include ':app-web-cookie-manager', ':base-module', ':app-hashmap-cookie-store', ':app-persistent-cookie-store'
+include ':app-web-cookie-manager', ':base-module', ':app-hashmap-cookie-store', ':app-persistent-cookie-store', ':app-persistent-web-sync-cookie'

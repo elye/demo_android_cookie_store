@@ -29,6 +29,7 @@ abstract class BaseActivity : AppCompatActivity(), BaseView {
     }
 
     fun openWebview(view: View) {
+        presenter.onOpenWebview()
         val intent = Intent(this, WebviewActivity::class.java)
         startActivity(intent)
     }
