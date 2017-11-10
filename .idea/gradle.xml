@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app-hashmap-cookie-store" />
+            <option value="$PROJECT_DIR$/app-persistent-cookie-store" />
             <option value="$PROJECT_DIR$/app-web-cookie-manager" />
             <option value="$PROJECT_DIR$/base-module" />
           </set>

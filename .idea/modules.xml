@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DemoAppWebviewCookie.iml" filepath="$PROJECT_DIR$/DemoAppWebviewCookie.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-hashmap-cookie-store/app-no-cookie-store.iml" filepath="$PROJECT_DIR$/app-hashmap-cookie-store/app-no-cookie-store.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-persistent-cookie-store/app-persistent-cookie-store.iml" filepath="$PROJECT_DIR$/app-persistent-cookie-store/app-persistent-cookie-store.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-web-cookie-manager/app.iml" filepath="$PROJECT_DIR$/app-web-cookie-manager/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-module/basemodule.iml" filepath="$PROJECT_DIR$/base-module/basemodule.iml" />
     </modules>
