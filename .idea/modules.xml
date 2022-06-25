@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DemoAppWebviewCookie.iml" filepath="$PROJECT_DIR$/DemoAppWebviewCookie.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app-hashmap-cookie-store/app-no-cookie-store.iml" filepath="$PROJECT_DIR$/app-hashmap-cookie-store/app-no-cookie-store.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app-persistent-cookie-store/app-persistent-cookie-store.iml" filepath="$PROJECT_DIR$/app-persistent-cookie-store/app-persistent-cookie-store.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app-persistent-web-sync-cookie/app-persistent-web-sync-cookie.iml" filepath="$PROJECT_DIR$/app-persistent-web-sync-cookie/app-persistent-web-sync-cookie.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app-web-cookie-manager/app.iml" filepath="$PROJECT_DIR$/app-web-cookie-manager/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/base-module/basemodule.iml" filepath="$PROJECT_DIR$/base-module/basemodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo_android_cookie_store.iml" filepath="$PROJECT_DIR$/.idea/modules/demo_android_cookie_store.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-hashmap-cookie-store/demo_android_cookie_store.app-hashmap-cookie-store.iml" filepath="$PROJECT_DIR$/.idea/modules/app-hashmap-cookie-store/demo_android_cookie_store.app-hashmap-cookie-store.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-hashmap-cookie-store/demo_android_cookie_store.app-hashmap-cookie-store.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app-hashmap-cookie-store/demo_android_cookie_store.app-hashmap-cookie-store.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-hashmap-cookie-store/demo_android_cookie_store.app-hashmap-cookie-store.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-hashmap-cookie-store/demo_android_cookie_store.app-hashmap-cookie-store.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-hashmap-cookie-store/demo_android_cookie_store.app-hashmap-cookie-store.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app-hashmap-cookie-store/demo_android_cookie_store.app-hashmap-cookie-store.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-persistent-cookie-store/demo_android_cookie_store.app-persistent-cookie-store.iml" filepath="$PROJECT_DIR$/.idea/modules/app-persistent-cookie-store/demo_android_cookie_store.app-persistent-cookie-store.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-persistent-cookie-store/demo_android_cookie_store.app-persistent-cookie-store.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app-persistent-cookie-store/demo_android_cookie_store.app-persistent-cookie-store.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-persistent-cookie-store/demo_android_cookie_store.app-persistent-cookie-store.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-persistent-cookie-store/demo_android_cookie_store.app-persistent-cookie-store.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-persistent-cookie-store/demo_android_cookie_store.app-persistent-cookie-store.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app-persistent-cookie-store/demo_android_cookie_store.app-persistent-cookie-store.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-persistent-web-sync-cookie/demo_android_cookie_store.app-persistent-web-sync-cookie.iml" filepath="$PROJECT_DIR$/.idea/modules/app-persistent-web-sync-cookie/demo_android_cookie_store.app-persistent-web-sync-cookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-persistent-web-sync-cookie/demo_android_cookie_store.app-persistent-web-sync-cookie.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app-persistent-web-sync-cookie/demo_android_cookie_store.app-persistent-web-sync-cookie.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-persistent-web-sync-cookie/demo_android_cookie_store.app-persistent-web-sync-cookie.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-persistent-web-sync-cookie/demo_android_cookie_store.app-persistent-web-sync-cookie.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-persistent-web-sync-cookie/demo_android_cookie_store.app-persistent-web-sync-cookie.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app-persistent-web-sync-cookie/demo_android_cookie_store.app-persistent-web-sync-cookie.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-web-cookie-manager/demo_android_cookie_store.app-web-cookie-manager.iml" filepath="$PROJECT_DIR$/.idea/modules/app-web-cookie-manager/demo_android_cookie_store.app-web-cookie-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-web-cookie-manager/demo_android_cookie_store.app-web-cookie-manager.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app-web-cookie-manager/demo_android_cookie_store.app-web-cookie-manager.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-web-cookie-manager/demo_android_cookie_store.app-web-cookie-manager.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-web-cookie-manager/demo_android_cookie_store.app-web-cookie-manager.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-web-cookie-manager/demo_android_cookie_store.app-web-cookie-manager.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app-web-cookie-manager/demo_android_cookie_store.app-web-cookie-manager.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-module/demo_android_cookie_store.base-module.iml" filepath="$PROJECT_DIR$/.idea/modules/base-module/demo_android_cookie_store.base-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-module/demo_android_cookie_store.base-module.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/base-module/demo_android_cookie_store.base-module.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-module/demo_android_cookie_store.base-module.main.iml" filepath="$PROJECT_DIR$/.idea/modules/base-module/demo_android_cookie_store.base-module.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-module/demo_android_cookie_store.base-module.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/base-module/demo_android_cookie_store.base-module.unitTest.iml" />
     </modules>
   </component>
 </project>

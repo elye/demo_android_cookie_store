@@ -1,7 +1,7 @@
 package com.elyeproj.basemodule
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_webview.*
 
@@ -22,11 +22,9 @@ class WebviewActivity : AppCompatActivity() {
         }
     }
 
-    override fun onSaveInstanceState(outState: Bundle?) {
+    override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
-        if (outState != null) {
-            webview_main.saveState(outState)
-        }
+        webview_main.saveState(outState)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
